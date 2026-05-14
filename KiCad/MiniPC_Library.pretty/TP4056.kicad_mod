@@ -1,0 +1,225 @@
+(footprint "TP4056"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f4732ba-a906-4ca6-848a-dceac52dd907")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46d83a65-101c-48b2-ba81-881ead926e93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TP4056"
+		(at 14 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63b2a697-2fc3-427a-936b-32b34c2bb914")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "TP4056"
+		(at 14 8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b109e8b-45b9-4c21-888d-90bf69aa32a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.009602)
+		(end 27 -0.009602)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cf22429-3675-49ad-aa03-6c4648c27447")
+	)
+	(fp_line
+		(start 0 17.190398)
+		(end 0 -0.009602)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c67d68b-b55c-465e-abfc-605f0acfa6e8")
+	)
+	(fp_line
+		(start 27 -0.009602)
+		(end 27 17.190398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e9d8094-86f4-4d33-a6d8-d45b62c9d6a8")
+	)
+	(fp_line
+		(start 27 17.190398)
+		(end 0 17.190398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14fc24e3-d332-49a2-818b-e84f1118354a")
+	)
+	(fp_text user "OUT+"
+		(at 19.05 2.54 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "457e29fe-ea51-45aa-b740-28a5b152d3b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BAT+"
+		(at 19.05 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0946e14-5836-4faf-9a67-95857ce567a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BAT-"
+		(at 19.05 13.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5fe9a9d0-2a26-486d-aa06-4ef23f22b1c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 19.05 16.51 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c533c71-0db3-4f94-9351-c4f253826404")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13f56c4f-c51a-4b98-85ba-a0cc606fcf11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 24 15.6)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27eaca73-853d-4159-aecf-91b47281ce8a")
+	)
+	(pad "2" thru_hole rect
+		(at 24 13.06)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff56997a-d38e-4fb4-9884-505a09198aaa")
+	)
+	(pad "3" thru_hole circle
+		(at 24 4.14)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08d1294e-a4f5-4cfd-86f2-31bc56a46c86")
+	)
+	(pad "4" thru_hole circle
+		(at 24 1.6)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad756689-ba6c-4db2-975a-94a546e5123c")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "f73fe761-e68d-4cea-969e-9c7ebe20c469")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 0 -0.009602) (xy 27 -0.009602) (xy 27 17.190398) (xy 0 17.190398)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
