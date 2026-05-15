@@ -4981,7 +4981,7 @@
 		(uuid "7c1ea0ea-75c4-4d51-b366-1859abad0d33")
 	)
 	(no_connect
-		(at 78.74 76.2)
+		(at 80.01 77.47)
 		(uuid "7f5b258f-6edd-46e1-9d51-8fa7564fb7d8")
 	)
 	(no_connect
@@ -5396,16 +5396,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 76.2) (xy 78.74 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250fe4ba-6b72-427a-b559-a0cde78ede2a")
-	)
-	(wire
-		(pts
 			(xy 270.51 113.03) (xy 270.51 125.73)
 		)
 		(stroke
@@ -5423,6 +5413,16 @@
 			(type solid)
 		)
 		(uuid "2710a316-ad7d-4403-afc1-1df73ba69697")
+	)
+	(wire
+		(pts
+			(xy 80.01 77.47) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27df6f89-9829-49ab-b8aa-6222e8bbf6de")
 	)
 	(wire
 		(pts
@@ -8470,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 368.3 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 364.49 112.0648 0)
 			(hide yes)
 			(show_name no)
@@ -8984,7 +8984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 336.042 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -9168,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MiniPC_Library:TP4056"
 			(at 72.39 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11871,7 +11871,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 168.91 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11881,7 +11881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 172.72 134.9248 0)
 			(hide yes)
 			(show_name no)
@@ -12054,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 138.43 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12064,7 +12064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 142.24 190.8048 0)
 			(hide yes)
 			(show_name no)
@@ -13663,7 +13663,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "100n"
 			(at 142.24 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13673,7 +13673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 146.05 51.1048 0)
 			(hide yes)
 			(show_name no)
