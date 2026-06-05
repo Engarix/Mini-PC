@@ -2101,154 +2101,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MiniPC_Stuff:3x3Keyboard+moreThumb_Slide_Joystick_-_SparkFun_COM-09426"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "COM-09426"
-				(at 12.7 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 1.27 -11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3x3Keyboard+moreThumb_Slide_Joystick_-_SparkFun_COM-09426_0_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "3x3Keyboard+moreThumb_Slide_Joystick_-_SparkFun_COM-09426_1_1"
-				(pin output line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "X"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MiniPC_Stuff:DFRobot_DFR0647"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2387,6 +2239,190 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MiniPC_Stuff:P5628_C17894"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Adafruit 5628"
+				(at 14.732 -3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MiniPC_Library:P5628_C17894"
+				(at 0 -21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mini Analog Thumbstick"
+				(at 0.254 -17.018 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "P5628_C17894_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "P5628_C17894_1_1"
+				(pin output line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "AD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "Sw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "AD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3205,16 +3241,6 @@
 		)
 		(uuid "8008f380-1365-4a10-aea5-121820e0f6cd")
 	)
-	(text "Do zmiany na Joystick analogowy - Adafruit 5628!"
-		(exclude_from_sim no)
-		(at 80.518 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "af893e9c-47aa-48cb-a7f9-8a99388268ba")
-	)
 	(text "Additional Buttons"
 		(exclude_from_sim no)
 		(at 290.322 249.174 0)
@@ -3344,6 +3370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bdede55-75db-4ff8-bdb1-99df3528e1c3")
+	)
+	(junction
+		(at 81.28 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d61b417-0841-4be4-8ca8-e28fe09f4a4a")
 	)
 	(junction
 		(at 219.71 195.58)
@@ -3570,10 +3602,6 @@
 	(no_connect
 		(at 106.68 210.82)
 		(uuid "eeab5754-4c8c-4109-8bf2-a53537442e99")
-	)
-	(no_connect
-		(at 223.52 102.87)
-		(uuid "f4bb36a0-ff87-45be-a451-51337efbf7ec")
 	)
 	(no_connect
 		(at 106.68 208.28)
@@ -3888,6 +3916,16 @@
 			(type default)
 		)
 		(uuid "2bbeb83e-8d5f-4775-a98a-1cf4f05610dd")
+	)
+	(wire
+		(pts
+			(xy 224.79 102.87) (xy 254 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c880a40-0956-44a0-93e7-28d041ff5217")
 	)
 	(wire
 		(pts
@@ -4271,6 +4309,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 205.74) (xy 78.74 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e2a28b-847e-470c-a519-711c55641a09")
+	)
+	(wire
+		(pts
 			(xy 101.6 199.39) (xy 101.6 198.12)
 		)
 		(stroke
@@ -4318,6 +4366,16 @@
 			(type default)
 		)
 		(uuid "6a3d914a-de9e-4ba6-b3cb-0ebab5093b01")
+	)
+	(wire
+		(pts
+			(xy 83.82 208.28) (xy 81.28 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a765fb1-5acf-491e-ba99-80905fb85963")
 	)
 	(wire
 		(pts
@@ -4671,16 +4729,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 254 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9238c669-cb1e-4305-ab9f-36b706be9142")
-	)
-	(wire
-		(pts
 			(xy 299.72 153.67) (xy 299.72 115.57)
 		)
 		(stroke
@@ -4731,7 +4779,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 205.74) (xy 81.28 207.01)
+			(xy 81.28 208.28) (xy 81.28 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5001,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 208.28) (xy 81.28 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be574840-4602-4124-a93a-c8d1cece3373")
+	)
+	(wire
+		(pts
 			(xy 120.65 182.88) (xy 123.19 182.88)
 		)
 		(stroke
@@ -5141,6 +5199,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 205.74) (xy 83.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc786f3-1ec7-432c-b2c6-a5d5bc14c645")
+	)
+	(wire
+		(pts
 			(xy 81.28 186.69) (xy 81.28 187.96)
 		)
 		(stroke
@@ -5148,6 +5216,16 @@
 			(type default)
 		)
 		(uuid "e357cbbe-89c3-4374-ae60-e757bbddc74b")
+	)
+	(wire
+		(pts
+			(xy 63.5 196.85) (xy 72.39 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37a4028-1470-4c34-a2d7-72c2a5203d76")
 	)
 	(wire
 		(pts
@@ -5261,6 +5339,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 198.12) (xy 90.17 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8f035e-cd9e-456e-a778-afc12d5eaf2a")
+	)
+	(wire
+		(pts
 			(xy 81.28 185.42) (xy 81.28 186.69)
 		)
 		(stroke
@@ -5328,6 +5416,16 @@
 			(type solid)
 		)
 		(uuid "fba0ef0b-c2ef-49c0-b5c2-b7c5adc12619")
+	)
+	(wire
+		(pts
+			(xy 90.17 194.31) (xy 90.17 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc65578d-d54a-4a66-b3e8-7ea3e5c73837")
 	)
 	(wire
 		(pts
@@ -5698,6 +5796,16 @@
 			(justify left bottom)
 		)
 		(uuid "e1bb0fd4-575f-42ac-ae37-697585bff37c")
+	)
+	(label "GPIO17"
+		(at 63.5 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eee6b200-0e6a-401a-801c-6876f98c0ee7")
 	)
 	(label "GPIO3{slash}SCL1"
 		(at 186.69 151.13 0)
@@ -7431,95 +7539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MiniPC_Stuff:3x3Keyboard+moreThumb_Slide_Joystick_-_SparkFun_COM-09426")
-		(at 81.28 196.85 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4aac737c-2bc3-4512-874a-46d8cde9c238")
-		(property "Reference" "U2"
-			(at 73.66 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "COM-09426"
-			(at 73.66 198.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MiniPC_Library:COM-09426"
-			(at 81.28 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 208.534 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "7ddede1e-fd8d-4340-a1fd-f2737cdad492")
-		)
-		(pin "1"
-			(uuid "ea037611-ce36-4d2f-aa06-2f00c6681cf6")
-		)
-		(pin "2"
-			(uuid "5482a2f6-4fef-4510-bbde-b702da21be5b")
-		)
-		(pin "3"
-			(uuid "e5cb7284-5a1e-4c8c-97c8-ce564d39c6bd")
-		)
-		(instances
-			(project "MiniPC"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 313.69 207.01 0)
 		(unit 1)
@@ -8158,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 81.28 207.01 0)
+		(at 81.28 209.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8170,7 +8189,7 @@
 		(fields_autoplaced yes)
 		(uuid "8217231d-0587-4ff7-aaeb-9e30aec458f1")
 		(property "Reference" "#PWR020"
-			(at 81.28 213.36 0)
+			(at 81.28 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8181,7 +8200,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 81.28 210.82 0)
+			(at 81.28 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8191,7 +8210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 207.01 0)
+			(at 81.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +8221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 207.01 0)
+			(at 81.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8213,7 +8232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 81.28 207.01 0)
+			(at 81.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10927,6 +10946,98 @@
 			(project "MiniPC"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MiniPC_Stuff:P5628_C17894")
+		(at 81.28 196.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f068f343-27c7-4d5a-a01b-a17421d1b236")
+		(property "Reference" "U3"
+			(at 81.28 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Adafruit 5628"
+			(at 66.548 200.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MiniPC_Library:P5628_C17894"
+			(at 81.28 218.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mini Analog Thumbstick"
+			(at 81.026 213.868 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "eaec402e-aa07-4677-bc3c-61c54b14461f")
+		)
+		(pin "1"
+			(uuid "f2059470-c4e7-4920-9780-6e881f074a0c")
+		)
+		(pin "5"
+			(uuid "c58ec499-4378-403a-8a0b-1369e61d52c8")
+		)
+		(pin "2"
+			(uuid "e7bc6a31-9009-4618-be3b-2e0d0f140cbb")
+		)
+		(pin "4"
+			(uuid "a2b659cf-4ed8-45d4-82ab-9d89b2b2cb44")
+		)
+		(pin "6"
+			(uuid "4d00bb77-b246-4a41-aa38-9590e20f58e8")
+		)
+		(instances
+			(project "MiniPC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U3")
 					(unit 1)
 				)
 			)
